@@ -1,0 +1,15 @@
+In the code we have used 5 different functions. Below are the details,
+
+affine_decrypt : This function will act as the main decrypt function which will use 3 parameters (ciphertext, a, b). Inside this function we will call modinv() function as per our formula defined. This function will provide a decrypted text with respect to the input parameter.
+
+modinv :  This function will try to find modular inverse and will raise exception if modular inverse doesnt exists. Modular inverse will be calculated between a and m (which will be our n value).
+
+egcd :  This function will be called inside our modinv function to check whether modular inverse exists or not.
+
+is_prime :  This function will accept one parameter and will output all the prime numbers between 1 and given input parameter. We use this function to restrict a value as a value will always be prime.
+
+is_affine_encryption: This function is used to check all the plaintext message to see whether "T is encrypted to H, and O is encrypted to E."
+
+Main function will loop in prime numbers for a and all possible values for b. We have restricted the output with given data using is_affine_encryption() function. From the output we found that 
+
+a: 11 b: 6 Decrypted Message: IFYOUBOWATALLBOWLOW 

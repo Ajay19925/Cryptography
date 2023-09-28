@@ -1,0 +1,11 @@
+Vigenere Cipher is a method of encrypting alphabetic text. It uses a simple form of polyalphabetic substitution. A polyalphabetic cipher is any cipher based on substitution, using multiple substitution alphabets. The encryption of the original text is done using the Vigenère square or Vigenère table.
+
+In the code we have used 2 different functions. Below are the details,
+
+vigenere_decrypt : This function will act as the main decrypt function which will accept 2 parameters (ciphertext, key). This function decrypts each alphabetic character in the ciphertext using the Vigenère cipher's polyalphabetic substitution method with the provided keyword.
+
+read_dictionary_file_to_list : We used two dictionary files in our program. this function will be used to read the content of the files. this function will accept filename/path as parameter.
+
+In the main function we have generated all the 3 letters words for keyword and restricted it by using '3-letter-words.txt' dictionary file (as 3 letter key is mentioned as english letter in the assignment) and looped it for the cipher text. All the decrypted messages are again checked against 'Oxford_English_Dictionary.txt' dictionary to see actual english words in the decrypted plaintext. By this we are restricting our output to find the actual keyword and decrypted plaintext. By this process we found that 
+
+{'KEY': 'SPOONFEEDINGINTHELONGRUNTEACHESUSNOTHINGBUTTHESHAPEOFTHESPOON'}
