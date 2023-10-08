@@ -1,0 +1,6 @@
+C:\Users\ajayb\Anaconda3\python.exe D:/LEARNING/PYTHON/untitled/enigma_decrypt_pb.py
+Possible Stecker Settings
+OY NR DL FU CG HJ MX PW
+OY NR DL FU CG MX HJ PW
+OY NR DL CG FU MX HJ PW
+OY NR DL CG FU HJ MX PW
